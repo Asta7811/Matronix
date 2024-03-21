@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Titulo de la pagina-->
+    <title>Minera</title>
+
+    <!--Declaracion de meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jhoan Bravo">
+    <meta name="keywords" lang="es" content="Pagina dedicada a la Mineria">
+
+    <!-- Coloca un icono en la pestaña-->
+    <link rel="shortcut icon" type="img/x-icon" href="img/favicon.png">
+
+    <!--Código CSS-->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #000;
+
+            background-color: #fff;
+            background-image: url(img/fondo.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        span {
+            margin: 0px 15px;
+        }
+
+        a:link {
+            color: #000
+        }
+
+        a:visited {
+            color: #000;
+        }
+
+        a:active {
+            color: #000;
+        }
+
+        /* Identificadores */
+        #wrapper {
+            width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+
+        #header {
+            height: 100px;
+            background-color: #f4c444;
+        }
+
+        #nav {
+            height: 48px;
+        }
+
+        #footer {
+            width: 1000px;
+            height: 110px;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        /* Identificadores que cambian por pagina*/
+        #content {
+            width: 1000px;
+            height: 600px;
+            text-align: center;
+        }
+
+        /* Clases */
+        .menu {
+            width: 198px;
+            height: 48px;
+            text-align: center;
+            background-image: url(img/menu.jpg);
+            font-size: 18px;
+        }
+
+        .footerLadoA {
+            width: 1000px;
+            height: 50px;
+        }
+
+        .footerLadoB {
+            width: 500;
+            height: 60px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Contenedor -->
+    <div id="wrapper">
+        <!--Encanbezado-->
+        <div id="header">
+            <a href="index.html">
+                <img src="img/encabezado.jpg" alt="Minera" title="Minera">
+
+            </a>
+        </div>
+        <!--Menú-->
+        <div id="nav">
+            <table style="margin: 0 auto;">
+                <tr>
+                    <td class="menu"><a href="index.html">Inicio</a></td>
+                    <td class="menu"><a href="info.html">Informacion</a></td>
+
+                    <td class="menu"><a href="galeria.html">Galeria</a></td>
+                    <td class="menu"><a href="contacto.html">Contacto</a></td>
+
+
+
+                </tr>
+            </table>
+        </div>
+        <!--Contenido-->
+        <div id="content">
+            <h1> Dia de la mineria - 7 de mayo</h1>
+            <img src="img/DiadelMinero.jpg" width="800px" height="560px" alt="Dia del minero" title="Dia de la mineria">
+        </div>
+        <!--Pie de página-->
+        <div id="footer">
+            <!--Lado A-->
+            <div class="footerLadoA">
+                <hr>
+                <p>
+                    <span>Condiciones de Uso</span> /
+                    <span>Políticas de Privacidad</span> /
+                    <span>Noticias</span>
+                <p>
+                    <hr>
+            </div><!--Fin FooterLadoA-->
+            <!--Lado B-->
+            <div class="footerLadoA">
+                <div class="footerLadoB">
+                    <strong>Diseñado por:Jhoan Bravo<br>
+                        Derechos Reservados</strong>
+                </div>
+                <div class="footerLadoB">
+                    <a href="http://es-es.facebook.com/trabajaenmineria" target="_blank">
+                        <img src="img/facebook.png" alt="Facebook" title="Facebook" width="150" height="50">
+                    </a>
+                    <a href="#">
+                        <img src="img/twitter.png" alt="Twitter" title="Twitter" width="150" height="50">
+                    </a>
+                    <a href="#">
+                        <img src="img/instagram.png" alt="Instagram" title="Instagram" width="150" height="50">
+                    </a>
+                </div>
+            </div><!--Fin FooterLadoA-->
+        </div>
+
+
+    </div>
+</body>
+
+</html>
